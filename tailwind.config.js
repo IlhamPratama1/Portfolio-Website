@@ -1,8 +1,8 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
-    './pages/**/*.{js,ts,jsx,tsx}',
-    './components/**/*.{js,ts,jsx,tsx}'
+    './src/pages/**/*.{js,ts,jsx,tsx}',
+    './src/components/**/*.{js,ts,jsx,tsx}'
   ],
   theme: {
     extend: {
@@ -18,7 +18,8 @@ module.exports = {
         'large-m': '6.2rem',
         large: '7rem',
         medium: '4rem',
-        'medium-m': '2.55rem'
+        'medium-m': '2.55rem',
+        regular: '5rem'
       }
     }
   },
