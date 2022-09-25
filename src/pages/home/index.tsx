@@ -7,12 +7,11 @@ import Head from '@components/head';
 
 const HomePage: NextPage = () => {
   return (
-    <div>
+    <div className="scroll-smooth bg-black-m">
       <Head title="Ilham Pratama - Home" hrefIcon="/favicon.ico" />
-
-      <div className="content bg-black-m">
+      <div className="content">
         <Navbar />
-        <div className="scroll-smooth pt-10 2xl:pt-28 px-8 2xl:px-[11rem] space-y-6">
+        <div className="pt-10 2xl:pt-28 px-8 2xl:px-[11rem] space-y-6">
           <section className="hero">
             <div className="h-full 2xl:h-screen 2xl:ml-12 pt-60 2xl:pt-28 space-y-3 2xl:space-y-8">
               <div className="w-full flex">
@@ -152,7 +151,7 @@ const HomePage: NextPage = () => {
         </div>
 
         <div className="w-full mt-[20rem] h-screen j flex justify-center items-center bg-white">
-          <div className="space-y-8">
+          <div className="space-y-4 2xl:space-y-8">
             <h1 className="font-roboto-mono text-sm 2xl:text-xl text-black-m">
               <span className="font-bold">04</span> / About
             </h1>
@@ -160,15 +159,23 @@ const HomePage: NextPage = () => {
               GET IN TOUCH
             </h1>
             <div className="flex justify-center">
-              <h4 className="text-black-m font-aktiv text-3xl underline">
+              <h4 className="text-black-m font-aktiv text-lg 2xl:text-3xl underline">
                 Email
               </h4>
             </div>
-            <div className="flex space-x-10 justify-center">
-              <h4 className="text-black-m font-light text-3xl">Gitlab</h4>
-              <h4 className="text-black-m font-light text-3xl">Linkedin</h4>
-              <h4 className="text-black-m font-light text-3xl">Dribbble</h4>
-              <h4 className="text-black-m font-light text-3xl">Twitter</h4>
+            <div className="flex space-x-6 2xl:space-x-10 justify-center">
+              <h4 className="text-black-m font-light text-lg 2xl:text-3xl">
+                Gitlab
+              </h4>
+              <h4 className="text-black-m font-light text-lg 2xl:text-3xl">
+                Linkedin
+              </h4>
+              <h4 className="text-black-m font-light text-lg 2xl:text-3xl">
+                Dribbble
+              </h4>
+              <h4 className="text-black-m font-light text-lg 2xl:text-3xl">
+                Twitter
+              </h4>
             </div>
           </div>
         </div>
